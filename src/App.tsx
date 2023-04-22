@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack, Text, Link, FontWeights, IStackTokens, IStackStyles, ITextStyles } from '@fluentui/react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 const boldStyle: Partial<ITextStyles> = { root: { fontWeight: FontWeights.semibold } };
@@ -19,10 +19,10 @@ export const App: React.FunctionComponent = () => {
     <Stack horizontalAlign="center" verticalAlign="center" verticalFill styles={stackStyles} tokens={stackTokens}>
       <img className="App-logo" src={logo} alt="logo" />
       <Text variant="xxLarge" styles={boldStyle}>
-        Welcome to your Fluent UI app
+        Welcome to GotmogRPG Board
       </Text>
-      <Text variant="large">For a guide on how to customize this project, check out the Fluent UI documentation.</Text>
-      <Text variant="large" styles={boldStyle}>
+      {/* <Text variant="large">For a guide on how to customize this project, check out the Fluent UI documentation.</Text> */}
+      {/* <Text variant="large" styles={boldStyle}>
         Essential links
       </Text>
       <Stack horizontal tokens={stackTokens} horizontalAlign="center">
@@ -38,7 +38,7 @@ export const App: React.FunctionComponent = () => {
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons">Icons</Link>
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web">Styles</Link>
         <Link href="https://aka.ms/themedesigner">Theme designer</Link>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 };
